@@ -25,6 +25,7 @@ public class ExibeHora extends HttpServlet {
 		gravador.println("<body>");
 		gravador.println("<h1>Hora do Servidor</h1><br/><br/>");
 		gravador.println(hoje);
+		gravador.println("<a href='http://localhost:8081/TesteWeb/executa_servlet'>Voltar</a>");
 		gravador.println("</body>");
 		gravador.println("</html>");
 	}
