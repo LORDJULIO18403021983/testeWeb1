@@ -61,8 +61,8 @@ public class GravarFilme extends HttpServlet {
 			gravador.println("<head><title>Cadastro de Filme</title></head>");
 			gravador.println("<body>");
 			gravador.println("<h1>Filme Gravado com sucesso</h1><br/><br/>");
-			//gravador.println("<a href='http://localhost:8081/TesteWeb/executa_servlet'>Voltar</a>");
-			gravador.println("<a href='http://localhost:8081/TesteWeb/grava_filme'>Voltar</a>");
+			//gravador.println("<a href='http://localhost:8080/testeWeb/executa_servlet'>Voltar</a>");
+			gravador.println("<a href='http://localhost:8080/testeWeb/grava_filme/'>Voltar</a>");
 			gravador.println("</body>");
 			gravador.println("</html>");
 		}
